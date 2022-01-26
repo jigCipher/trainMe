@@ -8,47 +8,93 @@
     <title>Jigyanshu</title>
 </head>
 
-<body style="background-color:rgb(36, 131, 187);"> </body>
+<!-- <body style="background-color:rgb(243, 232, 232);"> -->
+
+<!-- </body> -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 <style>
+    .block {
+        height: 70px;
+        width: 50px;
+        border: 2px solid;
+        text-decoration: azure;
+    }
+
     h1 {
         font-family: Lobster, monospace;
         background-color: rgb(30, 14, 90);
+        text-align: center;
+        border: 3px solid rgb(44, 191, 236);
+        padding: 10px;
+        margin: 10px;
+
     }
 
     h2 {
         font-family: Lobster, monospace;
         background-color: rgb(150, 13, 104);
+        text-align: center;
+        border: 3px solid rosybrown;
+        padding: 5px;
+        margin: 10px;
     }
 
     h3 {
         font-family: Lobster, monospace;
         background-color: rgb(26, 1, 46);
+        text-align: center;
+        border: 3px solid rgb(127, 198, 207);
+        padding: 2.5px;
+        margin: 10px;
     }
 
     .rgb-text {
         color: rgb(211, 150, 37);
     }
 
-    li,p {
+    li,
+    p {
         font-family: sans-serif;
+        color: rgb(44, 191, 236);
+    }
+
+    a {
+        color: red;
+        /* text-decoration: underline; */
+    }
+
+    a:hover {
+        color: chartreuse;
+    }
+
+    a:focus {
+        background: rgb(48, 47, 46);
+    }
+
+    img {
+        width: 500px;
+        height: 250px;
     }
 </style>
 
 
 <body>
     <h1 class="rgb-text">About Me</h1>
-    <p>I am a good boy.<br>I love my mother.</p>
+    <div style="color: rgb(44, 191, 236); margin: 20px;"> I am a good boy.</div>
+    
+    <div style="color: rgb(44, 191, 236); margin: 20px;"> I love my mother.</div>
     <h2 class="rgb-text">My hobbies</h2>
-    <ul>
+    <ul style="color: rgb(44, 191, 236); list-style: circle;">
         <li>cricket</li>
         <li>bike ride</li>
         <li>foods</li>
         <li>browsing</li>
     </ul>
     <h3 class="rgb-text">My daily work</h3>
-    <ol>
+    <ol style="color: rgb(44, 191, 236); list-style-type: circle ;">
 
         <li>i woke up at 6 am</li>
         <li>i brush my teeth</li>
@@ -57,10 +103,20 @@
         <li>i smoke some weed</li>
 
     </ol>
-    <a href="https://www.linkedin.com/in/jigyanshu-pattnaik-1800251b1/" target="_blank">To have a coffee with me visit
-        to my linkedin profile</a>
-    <img src="coffee.jpg" alt="coffee cup">
+    <p> To have a <span style="color: magenta;">COFFEE</span> with me then please visit my
+        <a href="https://www.linkedin.com/in/jigyanshu-pattnaik-1800251b1/" target="_blank"> linkedin</a>
+        profile .
+    </p>
+    <a href="https://www.linkedin.com/in/jigyanshu-pattnaik-1800251b1/" target="_blank">
+        <img src="coffee.jpg" alt="coffee cup">
+    </a>
 
+    <div style="color: rgb(44, 191, 236); margin: 20px;" >
+        <i class="fa fa-linkedin-square"></i>
+        <a href="https://www.linkedin.com/in/jigyanshu-pattnaik-1800251b1/" target="_blank">
+        linkedin Profile.
+        </a>
+    </div>
 
 </body>
 
